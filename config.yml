@@ -1,0 +1,6 @@
+tunnel: 4a1b5d71-a207-454f-8566-8c36cde58002
+credentials-file: "C:\\Users\\Shourya Gupta\\.cloudflared\\4a1b5d71-a207-454f-8566-8c36cde58002.json"
+ingress:
+  - hostname: shouryacse.store
+    service: http://127.0.0.1:5000
+  - service: http_status:404
